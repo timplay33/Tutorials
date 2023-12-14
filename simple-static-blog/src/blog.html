@@ -1,0 +1,15 @@
+---
+title: Blog
+layout: base.html
+---
+
+<div>
+  <h1>Recent articles</h1>
+  <ul>
+    {%- for post in collections.post | reverse -%}
+    <li>
+      <a href="{{post.url}}"><h2>{{post.data.title}}</h2></a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
