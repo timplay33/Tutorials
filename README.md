@@ -1,2 +1,2 @@
 # Tutorials
-this repository contains all the project to the tutorials on my website
+this repository contains all the projects to the tutorials on my website
